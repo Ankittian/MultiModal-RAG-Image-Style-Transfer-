@@ -86,7 +86,10 @@ This project follows a **Client-Server Architecture**. The heavy AI processing r
 3.  **Add Ngrok Token:**
     * Sign up at [dashboard.ngrok.com](https://dashboard.ngrok.com).
     * Copy your **Authtoken**.
-    * Paste it into the `NGROK_TOKEN` variable in the notebook code.
+    * Paste it into the `NEW_TOKEN` variable in the notebook code.
+    --
+    <img width="686" height="190" alt="image" src="https://github.com/user-attachments/assets/56d84907-ad2b-429d-8c48-3d103371851c" />
+
 4.  **Run All Cells:** Execute the notebook. It will install dependencies, download models (approx. 5GB), and start the server.
 5.  **Copy the URL:** At the end of the logs, copy the public URL (e.g., `https://a1b2-34...ngrok-free.app`).
 
